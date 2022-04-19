@@ -4,7 +4,7 @@
 
 
 .card {
-    border-radius:18% 11% 3% 17%/2% 2% 34% 4%;
+    border-radius:2% 6% 3% 17%/34% 1% 34% 4%;
     overflow: hidden;
 }
 
@@ -44,7 +44,6 @@
 }
 
 .card__img {
-    /* object-position: 65% 50%; */
     object-fit: cover;
     transition: transform var(--transition-duration-normal) var(--transition-ease);
 }
@@ -89,6 +88,7 @@
 .card__text {
     color: var(--black);
     font-family: var(--font-primary);
+    letter-spacing: var(--letter-spacing-small);
 }
 
 .card__cta {

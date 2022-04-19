@@ -19,3 +19,152 @@
 .location__content .card {
     margin-bottom: 0;
 }
+
+
+.location__info {
+    margin-top: calc(var(--space-base) * 8);    
+}
+
+/* .location__heures::after {
+    content: "";
+    width: 65%;
+    left: 25%;
+    height: 232px;
+    background-color: pink;
+    position: absolute;
+    top: 50px;
+    z-index: 0;
+    border-radius: 3% 45% 13% 9%/35% 9% 7% 10%;
+} */
+
+@media only screen and (min-width:768px) {
+    .location__info {
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.location__horaires {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width:550px) {
+    .location__horaires {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .location__horaires {
+        width: 35%;
+        flex-direction: column;
+    }
+    
+}
+
+.location__horaires--title {
+    width: 100%;
+    margin-bottom: calc(var(--space-base) * 4);
+}
+
+@media only screen and (min-width:550px) {
+    .location__horaires--title {
+        width: 100px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .location__horaires--title {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) {
+    .location__horaires--title {
+        margin-bottom: 0
+    }
+}
+
+.location__heures {
+    font-family: var(--font-body);
+    background-color: var(--accent-secondary);
+    color: var(--white);
+    letter-spacing: var(--letter-spacing);
+    border-radius: 3% 45% 13% 9%/35% 9% 7% 10%;
+    padding: 2em 4em;
+    width: 100%;
+}
+
+@media only screen and (min-width:550px) {
+    .location__heures {
+        width: 60%;
+        padding: 2em;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .location__heures {
+        width: 100%;
+        padding: 1em;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .location__heures {
+        padding: 2em;
+    }
+}
+
+
+.heures--row {
+    height: 35px;
+}
+
+.heures--jour {
+    font-size: 18px;
+    text-align: left;
+}
+.heures--time {
+    font-size: 18px;
+    text-align: right;
+}
+@media only screen and (min-width:1200px) {
+
+    /* .location__carte {
+        margin-top: 0;
+        width: 60%;
+        height: 100%;
+    } */
+}
+
+
+/*---------- location carte -------------*/
+
+.location__carte {
+    margin-top: calc(var(--space-base)*6);
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (min-width:768px) {
+
+    .location__carte {
+        margin-top: 0;
+        width: 60%;
+        height: 100%;
+    }
+}
+
+.location__googlemap {
+    height: 100%;
+    width: 100%;
+}

@@ -10,7 +10,7 @@
     --accent-secondary:#299994;
     /* #4FA28C */
     /* #299994 */
-    /* #297373 */
+    /* #00B295 */
     --white-transparent: rgba(255,255,255,.8);
 
     --space-base: max(10px, 1vw);
@@ -23,4 +23,5 @@
     --font-body: 'Source Sans Pro', sans-serif;
 
     --letter-spacing : .08em;
+    --letter-spacing-small : .03em;
 }

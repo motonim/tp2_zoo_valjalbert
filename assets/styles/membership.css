@@ -19,4 +19,5 @@
 
 .membership__text {
     color: var(--white);
+    letter-spacing: var(--letter-spacing-small);
 }
