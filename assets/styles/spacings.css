@@ -1,0 +1,36 @@
+/**
+ *  spacings
+ */
+
+/* padding Y */
+
+.py-small {
+    padding: calc(var(--space-base) * 4) 0;
+}
+
+.py-medium {
+    padding: calc(var(--space-base) * 6) 0;
+}
+
+.py-large {
+    padding: calc(var(--space-base) * 8) 0;
+}
+
+
+/* margin Y */
+
+.mt-xsmall {
+    margin-top: calc(var(--space-base) * 2);
+}
+
+.mb-xsmall {
+    margin-bottom: calc(var(--space-base) * 2);
+}
+
+.mb-small {
+    margin-bottom: calc(var(--space-base) * 4);
+}
+
+.mb-medium {
+    margin-bottom: calc(var(--space-base) * 6);
+}

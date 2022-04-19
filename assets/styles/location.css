@@ -1,0 +1,21 @@
+/**
+ *  location 
+ */
+
+.location {
+    background-image: url(../img/white_texture.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location__img1 {
+    object-position: 53% 50%;
+}
+.location__img2 {
+    object-position: 65% 30%;
+}
+
+.location__content .card {
+    margin-bottom: 0;
+}

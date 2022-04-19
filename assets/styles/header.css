@@ -1,0 +1,17 @@
+/**
+ *  header 
+ */
+
+
+
+.header__nav {
+    background-color: var(--white-transparent);
+    font-size: 1.3rem;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: var(--transition-duration-normal) var(--transition-ease);
+    width: 100%;
+    z-index: 5;
+}
+

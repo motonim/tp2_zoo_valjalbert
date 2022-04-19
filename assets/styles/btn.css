@@ -1,0 +1,22 @@
+/**
+ *  btn 
+ */
+
+
+ .btn {
+    background-color: var(--accent-primary);
+    border-radius: 3% 45% 13% 9%/35% 9% 7% 10%;;
+    padding: .5em 1em;
+    font-weight: bold;
+    width: fit-content;
+    letter-spacing: var(--letter-spacing);
+    display: inline-block;
+    font-family: var(--font-primary);
+    transition: transform var(--transition-duration-normal) var(--transition-ease);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover  {
+   transform: scale(1.1);
+}

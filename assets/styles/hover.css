@@ -1,0 +1,13 @@
+/**
+ *  hover 
+ */
+
+.hover-scale {
+    -webkit-transition: -webkit-transform var(--transition-duration-normal) var(--transition-ease);
+    transition: transform var(--transition-duration-normal) var(--transition-ease);
+}
+
+.hover-scale:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}

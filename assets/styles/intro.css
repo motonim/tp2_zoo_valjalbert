@@ -1,0 +1,43 @@
+/**
+ *  intro
+ */
+
+.intro__text {
+    line-height: 1.5;
+}
+
+.intro__link {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro__link {
+        margin-top: auto;
+    }
+    
+}
+
+
+.intro__text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width:550px) {
+    
+    .intro__text-wrapper {
+        width: 80%;
+    }
+
+}
+
+
+.intro__img {
+    border-radius: 18% 11% 3% 17%/2% 2% 34% 4%;
+}
+
+.name {
+    font-family: var(--font-primary);
+    font-size: 1.85rem;
+    font-weight: bold;
+}

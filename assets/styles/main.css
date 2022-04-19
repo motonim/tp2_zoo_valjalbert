@@ -1,0 +1,28 @@
+/**
+ *  css files 
+ */
+
+/* generic */
+@import "./generic.css";
+@import "./text.css";
+@import "./hover.css";
+@import "./spacings.css";
+@import "./grid.css";
+@import "./image.css";
+@import "./btn.css";
+@import "./wrapper.css";
+@import "./variables.css";
+@import "./font.css";
+@import "./card.css";
+
+/* section */
+@import "./header.css";
+@import "./covid.css";
+@import "./navigation.css";
+@import "./hero.css";
+@import "./intro.css";
+@import "./info.css";
+@import "./help.css";
+@import "./membership.css";
+@import "./location.css";
+@import "./footer.css";
